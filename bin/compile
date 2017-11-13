@@ -80,6 +80,30 @@ if [ -f "$BUILD_DIR/texlive.packages" ]; then
     tlmgr install $(cat "$BUILD_DIR/texlive.packages")
 fi
 
+# for some reason the above block of code doesn't work.
+build-step "Installing Open Journals-specific packages"
+
+tlmgr install collection-xetex
+tlmgr install collection-fontsextra
+tlmgr install collection-bibtexextra
+tlmgr install marginnote
+tlmgr install xcolor
+tlmgr install preprint
+tlmgr install etoolbox
+tlmgr install titlesec
+tlmgr install pgf
+tlmgr install caption
+tlmgr install tcolorbox
+tlmgr install environ
+tlmgr install trimspaces
+tlmgr install seqsplit
+tlmgr install biblatex
+tlmgr install logreq
+tlmgr install xstring
+tlmgr install mathspec
+tlmgr install fontspec
+tlmgr install xkeyval
+
 build-step "Updating installed packages..."
 tlmgr update --all
 
