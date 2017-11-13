@@ -84,8 +84,6 @@ fi
 build-step "Installing Open Journals-specific packages"
 
 tlmgr install collection-xetex
-tlmgr install collection-fontsextra
-tlmgr install collection-bibtexextra
 tlmgr install marginnote
 tlmgr install xcolor
 tlmgr install preprint
