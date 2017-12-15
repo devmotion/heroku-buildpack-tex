@@ -101,6 +101,7 @@ tlmgr install xstring
 tlmgr install mathspec
 tlmgr install fontspec
 tlmgr install xkeyval
+tlmgr install booktabs
 
 build-step "Updating installed packages..."
 tlmgr update --all
