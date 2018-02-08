@@ -102,6 +102,7 @@ tlmgr install mathspec
 tlmgr install fontspec
 tlmgr install xkeyval
 tlmgr install booktabs
+tlmgr install fancyvrb
 
 build-step "Updating installed packages..."
 tlmgr update --all
