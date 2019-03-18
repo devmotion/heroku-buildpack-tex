@@ -71,6 +71,8 @@ fi
 build-step "Updating TeX Live..."
 
 tlmgr option repository "$TEXLIVE_REPOSITORY"
+tlmgr option require-verification 0
+tlmgr option verify-downloads 0
 tlmgr update --self
 
 # install user-provided-packages
