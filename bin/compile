@@ -70,6 +70,8 @@ fi
 
 build-step "Updating TeX Live..."
 
+tlmgr conf verify-downloads 0
+
 tlmgr option repository "$TEXLIVE_REPOSITORY"
 tlmgr update --self
 
