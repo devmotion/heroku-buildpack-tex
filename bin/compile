@@ -104,6 +104,7 @@ tlmgr install booktabs
 tlmgr install fancyvrb
 tlmgr install latexmk
 tlmgr install listings
+tlmgr install float
 
 build-step "Updating installed packages..."
 tlmgr update --all
