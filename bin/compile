@@ -105,6 +105,8 @@ tlmgr install fancyvrb
 tlmgr install latexmk
 tlmgr install listings
 tlmgr install float
+tlmgr install algorithms
+tlmgr install algorithmicx
 
 build-step "Updating installed packages..."
 tlmgr update --all
