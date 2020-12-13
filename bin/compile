@@ -107,6 +107,7 @@ tlmgr install listings
 tlmgr install float
 tlmgr install algorithms
 tlmgr install algorithmicx
+tlmgr install draftwatermark
 
 build-step "Updating installed packages..."
 tlmgr update --all
