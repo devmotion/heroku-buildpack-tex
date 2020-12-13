@@ -108,6 +108,7 @@ tlmgr install float
 tlmgr install algorithms
 tlmgr install algorithmicx
 tlmgr install draftwatermark
+tlmgr install everypage
 
 build-step "Updating installed packages..."
 tlmgr update --all
