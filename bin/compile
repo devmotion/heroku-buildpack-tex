@@ -109,6 +109,7 @@ tlmgr install algorithms
 tlmgr install algorithmicx
 tlmgr install draftwatermark
 tlmgr install everypage
+tlmgr install lineno
 
 build-step "Updating installed packages..."
 tlmgr update --all
