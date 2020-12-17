@@ -8,7 +8,7 @@ BUILD_DIR=$1
 CACHE_DIR=$2
 BIN_DIR=$(cd "$(dirname "$0")"; pwd) # absolute path
 
-TEXLIVE_REPOSITORY="ftp://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2020"
+TEXLIVE_REPOSITORY="ftp://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2019/tlnet-final"
 
 # TODO: remove this in future versions.
 # This is only kept for backwards support
