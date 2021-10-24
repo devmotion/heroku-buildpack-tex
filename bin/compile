@@ -105,6 +105,7 @@ tlmgr install \
   pgf \
   preprint \
   seqsplit \
+  siunitx \
   tcolorbox \
   titlesec \
   trimspaces \
