@@ -103,6 +103,7 @@ tlmgr install \
   marginnote \
   mathspec \
   pgf \
+  pgfplots \
   preprint \
   seqsplit \
   siunitx \
