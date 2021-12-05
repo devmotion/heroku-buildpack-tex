@@ -96,6 +96,7 @@ tlmgr install \
   fancyvrb \
   float \
   fontspec \
+  here \
   latexmk \
   lineno \
   listings \
