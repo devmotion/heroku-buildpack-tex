@@ -106,6 +106,7 @@ tlmgr install \
   pgf \
   pgfplots \
   preprint \
+  orcidlink \
   seqsplit \
   siunitx \
   tcolorbox \
