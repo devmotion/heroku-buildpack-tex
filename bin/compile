@@ -103,6 +103,7 @@ tlmgr install \
   logreq \
   marginnote \
   mathspec \
+  mathtools \
   pgf \
   pgfplots \
   preprint \
